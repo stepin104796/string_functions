@@ -45,19 +45,16 @@ void concat() {
    puts(str2);
 
 }
-void select(int choice){
-    switch(choice)
-    {
-        case 1 : readstring();
-        break;
-        case 2 : length();
-        break;
-        case 3 : copy();
-        break;
-        case 4 : compare();
-        break;
-        case 5 : concat();
-        break;
+int select(){
+    int choice;
+    printf("enter choice");
+    scanf("%d",&choice);
+    if(choice>5 || choice<1){
+        printf("invalid choice");
+        return 0;
+    }
+    else{
+        return choice;
     }
 }
 
