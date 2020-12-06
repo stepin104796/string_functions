@@ -15,4 +15,6 @@ void compare();
 
 void concat();
 
+void select(int choice);
+
 #endif
