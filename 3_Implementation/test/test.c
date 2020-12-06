@@ -37,7 +37,7 @@ int main() {
 
 
 /* Write all the test functions */
-void test_getchoice(void) {
+void test_select(void) {
   CU_ASSERT(1 == select(1));
   CU_ASSERT(3 == select(3));
   CU_ASSERT(0 == select(6));
