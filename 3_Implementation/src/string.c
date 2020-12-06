@@ -1,4 +1,4 @@
-#include <string.h>
+#include <string1.h>
 void readstring()
 {
     char name[20];
