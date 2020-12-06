@@ -15,6 +15,6 @@ void copy();
 void compare();
 
 void concat();
-void select(int choice);
+int select();
 
 #endif
