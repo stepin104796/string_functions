@@ -1,9 +1,10 @@
-#ifndef __STRING_H__
-#define __STRING_H__
+#ifndef __STRING1_H__INCLUDED
+#define __STRING1_H__INCLUDED
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio_ext.h>
+#include <string.h>
 
 
 void readstring();
